@@ -1,10 +1,10 @@
 <?php
 
 class db{
-private $host="db4free.net";
-private $user="tuhin1191";
-private $pass="tuhin1191";
-private $database="tuhin1191";
+private $host="sql5.freemysqlhosting.net";
+private $user="sql5498417";
+private $pass="P1IPV4Vci8";
+private $database="sql5498417";
 public function connection(){
 
  return new mysqli($this->host,$this->user,$this->pass,$this->database);
